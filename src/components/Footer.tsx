@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 import { FiChevronUp } from 'react-icons/fi';
 import { HiOutlineMail } from 'react-icons/hi';
 import './Footer.css';
