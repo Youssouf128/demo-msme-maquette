@@ -209,7 +209,7 @@ const AidesFinancieres = () => {
           {menuItems.map((item) => (
             <button
               key={item.id}
-              className={`nav-item ${item.id === 'information' ? 'active' : ''}`}
+              className={`nav-item ${item.id === 'incitations' ? 'active' : ''}`}
               onClick={() => navigate(item.path)}
             >
               <span className="nav-icon">{item.icon}</span>

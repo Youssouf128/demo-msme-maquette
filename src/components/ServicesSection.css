@@ -100,8 +100,6 @@
   padding-top: var(--spacing-sm);
   position: relative;
 }
-  position: relative;
-}
 
 .services-cards-grid {
   display: grid;

@@ -1,15 +1,22 @@
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import GuichetHeader from '../components/GuichetHeader';
-import { FiTrendingUp, FiUsers, FiDollarSign, FiBarChart2, FiMail, FiLock } from 'react-icons/fi';
+import { FiTrendingUp, FiUsers, FiDollarSign, FiBarChart2, FiMail, FiLock, FiShield, FiActivity } from 'react-icons/fi';
 import { HiLightBulb } from 'react-icons/hi';
 import './StartupPortal.css';
 
 const StartupPortal = () => {
   const navigate = useNavigate();
+  const [activeLogin, setActiveLogin] = useState<'entrepreneur' | 'autorite'>('entrepreneur');
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
     navigate('/startup/dashboard');
+  };
+
+  const handleAuthorityLogin = (e: React.FormEvent) => {
+    e.preventDefault();
+    navigate('/authority/dashboard');
   };
 
   return (
@@ -69,7 +76,22 @@ const StartupPortal = () => {
           </div>
 
           <div className="startup-section login-section">
-            <div className="startup-card startup-login-card">
+            <div className="login-switch">
+              <button
+                className={`switch-btn ${activeLogin === 'entrepreneur' ? 'active' : ''}`}
+                onClick={() => setActiveLogin('entrepreneur')}
+              >
+                Entrepreneur
+              </button>
+              <button
+                className={`switch-btn ${activeLogin === 'autorite' ? 'active' : ''}`}
+                onClick={() => setActiveLogin('autorite')}
+              >
+                Autorité
+              </button>
+            </div>
+
+            <div className={`startup-card startup-login-card ${activeLogin === 'entrepreneur' ? 'is-active' : 'is-hidden'}`}>
               <div className="login-header">
                 <div className="login-icon">
                   <img src="/logo/logo_g2b.png" alt="Startup Portal" />
@@ -122,6 +144,51 @@ const StartupPortal = () => {
               <div className="login-footer">
                 <p><FiLock className="lock-icon" /> Connexion sécurisée SSL</p>
               </div>
+            </div>
+
+            <div className={`startup-card startup-authority-card ${activeLogin === 'autorite' ? 'is-active' : 'is-hidden'}`}>
+              <div className="login-header">
+                <div className="login-icon authority">
+                  <FiShield />
+                </div>
+                <h2>Espace Autorités</h2>
+                <p className="login-subtitle">Pilotage stratégique et suivi des indicateurs nationaux</p>
+              </div>
+
+              <form className="login-form" onSubmit={handleAuthorityLogin}>
+                <div className="form-group">
+                  <label>Identifiant institutionnel</label>
+                  <input
+                    type="text"
+                    placeholder="ministere@djibouti.gov"
+                    className="startup-input"
+                    required
+                  />
+                </div>
+
+                <div className="form-group">
+                  <label>Mot de passe</label>
+                  <input
+                    type="password"
+                    placeholder="••••••••"
+                    className="startup-input"
+                    required
+                  />
+                </div>
+
+                <div className="form-options">
+                  <label className="checkbox-label">
+                    <input type="checkbox" />
+                    <span>Accès sécurisé</span>
+                  </label>
+                  <span className="forgot-password">Accès restreint</span>
+                </div>
+
+                <button type="submit" className="startup-btn-login">
+                  <span className="btn-icon"><FiActivity /></span>
+                  Accéder au dashboard
+                </button>
+              </form>
             </div>
           </div>
         </div>
