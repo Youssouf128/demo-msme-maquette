@@ -1,0 +1,144 @@
+.top-bar {
+  background: var(--color-primary);
+  color: white;
+  padding: var(--spacing-xs) var(--spacing-lg);
+  font-size: 0.875rem;
+}
+
+.top-bar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: var(--spacing-sm);
+}
+
+.welcome-text {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.top-bar-links {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: center;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.top-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: opacity 0.3s;
+}
+
+.top-link:hover {
+  opacity: 0.85;
+}
+
+.language-selector {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius-sm);
+  padding: 0.4rem 0.8rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  font-weight: 500;
+}
+
+.language-selector:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.language-selector:focus {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+.language-selector option {
+  background: #17a2b8;
+  color: white;
+  padding: 0.5rem;
+}
+
+@media (max-width: 992px) {
+  .top-bar {
+    padding: var(--spacing-xs) var(--spacing-md);
+  }
+
+  .top-bar-content {
+    gap: 0.75rem;
+  }
+
+  .welcome-text {
+    font-size: 0.8125rem;
+  }
+
+  .top-bar-links {
+    gap: 1rem;
+  }
+
+  .top-link {
+    font-size: 0.8125rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+
+  .top-bar-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+  
+  .welcome-text {
+    font-size: 0.75rem;
+  }
+
+  .top-bar-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .top-link {
+    font-size: 0.75rem;
+  }
+
+  .language-selector {
+    padding: 0.35rem 0.7rem;
+    font-size: 0.8125rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-bar {
+    padding: var(--spacing-xs) var(--spacing-xs);
+  }
+
+  .welcome-text {
+    font-size: 0.6875rem;
+    line-height: 1.4;
+  }
+
+  .top-bar-links {
+    gap: 0.5rem;
+  }
+
+  .top-link {
+    font-size: 0.6875rem;
+  }
+
+  .language-selector {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+  }
+}

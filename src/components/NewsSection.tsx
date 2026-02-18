@@ -1,0 +1,88 @@
+import { FiTrendingUp, FiAward, FiGlobe, FiBookOpen } from 'react-icons/fi';
+import './NewsSection.css';
+
+interface NewsItem {
+  title: string;
+  description: string;
+  category: string;
+  theme: string;
+  icon: React.ReactNode;
+  link: string;
+}
+
+const NewsSection = () => {
+  const news: NewsItem[] = [
+    {
+      title: 'Chiffres clés MSME 2025',
+      description: "L'INPI publie les chiffres clés de la propriété industrielle en France. En 2025, avec 16 807 dépôts et après plusieurs années de stabilisation, les brevets dépassent le niveau d'avant pandémie.",
+      category: 'Nationale',
+      theme: 'Propriété intellectuelle',
+      icon: <FiTrendingUp />,
+      link: '#chiffres-cles',
+    },
+    {
+      title: 'Concours « Innovez » avec Science & Vie',
+      description: "L'INPI a accompagné de jeunes esprits créatifs lors de la Journée des Inventeurs organisée par Science & Vie Junior. Ces innovations portées par des 10-16 ans témoignent d'une génération inventive.",
+      category: 'Nationale',
+      theme: 'Propriété intellectuelle',
+      icon: <FiAward />,
+      link: '#concours',
+    },
+    {
+      title: 'France – République de Corée',
+      description: "L'INPI et le nouveau Ministère coréen de la propriété intellectuelle ont réaffirmé leur coopération structurée autour de l'intelligence artificielle, des indications géographiques et de la défense des droits de propriété intellectuelle.",
+      category: 'Internationale',
+      theme: 'Propriété intellectuelle',
+      icon: <FiGlobe />,
+      link: '#coree',
+    },
+    {
+      title: "Actualités des Chambres de recours de l'EUIPO",
+      description: "L'INPI, les Chambres de recours de l'EUIPO et l'APRAM ont organisé une conférence consacrée à l'actualité et aux dernières évolutions jurisprudentielles en matière de marques.",
+      category: 'Internationale',
+      theme: 'Propriété intellectuelle',
+      icon: <FiBookOpen />,
+      link: '#euipo',
+    },
+  ];
+
+  return (
+    <section className="news-section" id="actualites">
+      <div className="container">
+        <h2 className="news-heading">
+          <span className="news-prefix">_</span>Nos <span className="news-highlight">actualités</span>
+        </h2>
+        <div className="news-grid">
+          {news.map((item, index) => (
+            <article key={index} className="news-card">
+              <div className="news-image">
+                <span className="news-icon">{item.icon}</span>
+              </div>
+              <div className="news-content">
+                <div className="news-tags">
+                  <span className="news-tag">{item.category}</span>
+                  <span className="news-tag">{item.theme}</span>
+                </div>
+                <h3 className="news-title">{item.title}</h3>
+                <p className="news-description">{item.description}</p>
+                <a href={item.link} className="news-link">
+                  Lire la suite →
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+        <div className="news-pagination">
+          <button className="pagination-btn">1</button>
+          <button className="pagination-btn">2</button>
+          <button className="pagination-btn">3</button>
+        </div>
+        <div className="news-cta">
+          <a href="#all-news" className="cta-button">Voir toutes les actualités</a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default NewsSection;
