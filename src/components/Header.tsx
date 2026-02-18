@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { FiSearch, FiHelpCircle, FiUser, FiShoppingCart, FiChevronDown, FiX, FiMenu } from 'react-icons/fi';
+import { FiSearch, FiHelpCircle, FiUser, FiChevronDown, FiX, FiMenu } from 'react-icons/fi';
 import './Header.css';
 
 const Header = () => {
@@ -88,9 +88,6 @@ const Header = () => {
             </a>
             <a href="#account" className="header-action-link">
               <FiUser /> Mon compte
-            </a>
-            <a href="#cart" className="header-action-link">
-              <FiShoppingCart /> Mon panier
             </a>
           </div>
         </div>

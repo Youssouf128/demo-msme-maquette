@@ -1,4 +1,5 @@
 import GuichetHeader from '../components/GuichetHeader';
+import { FiLink, FiArrowRight, FiInfo } from 'react-icons/fi';
 import './GuichetUnique.css';
 
 const GuichetUnique = () => {
@@ -42,7 +43,7 @@ const GuichetUnique = () => {
               <h2>Connectez-vous</h2>
               
               <div className="connection-method">
-                <h3>Via 🔗 G2B Connect</h3>
+                <h3>Via <FiLink className="inline-icon" /> G2B Connect</h3>
                 
                 <div className="form-group">
                   <label>Adresse courriel</label>
@@ -54,8 +55,8 @@ const GuichetUnique = () => {
                   <input type="password" placeholder="••••••••" className="guichet-input" />
                 </div>
 
-                <a href="#" className="forgot-link">➤ Mot de passe oublié</a>
-                <p className="info-text">ℹ️ En savoir plus sur G2B Connect</p>
+                <a href="#" className="forgot-link"><FiArrowRight className="inline-icon" /> Mot de passe oublié</a>
+                <p className="info-text"><FiInfo className="inline-icon" /> En savoir plus sur G2B Connect</p>
 
                 <button className="guichet-btn-primary">Se connecter</button>
               </div>

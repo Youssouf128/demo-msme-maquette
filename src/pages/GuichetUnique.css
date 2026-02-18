@@ -400,6 +400,12 @@
   margin-bottom: 1rem;
 }
 
+.inline-icon {
+  display: inline;
+  vertical-align: middle;
+  font-size: 1.1em;
+}
+
 .separator {
   text-align: center;
   color: #999;
