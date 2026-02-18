@@ -110,7 +110,7 @@
 }
 
 .cube-front {
-  background-image: url('https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/376199784_275753651984322_7293612024233797083_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=4IK-JzAu1s0Q7kNvwE6WrGA&_nc_oc=AdlMz4FLMBqMpqxaSBgSiuZLGh5WdpUlda6oezaPkuenWqBcBURRjGzbmFhUPnyLk8A&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=hZUC6y97aKDl7gCVx8CPDg&oh=00_AfsxLXL9TH3yupBtapOolF-6tz8hMGRtF4wIeuc8HVfwfg&oe=6994657D');
+  background-image: url('/logo/logo_minister.jpeg');
   transform: translateZ(150px);
 }
 
