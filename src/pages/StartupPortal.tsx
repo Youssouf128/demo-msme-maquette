@@ -94,7 +94,7 @@ const StartupPortal = () => {
             <div className={`startup-card startup-login-card ${activeLogin === 'entrepreneur' ? 'is-active' : 'is-hidden'}`}>
               <div className="login-header">
                 <div className="login-icon">
-                  <img src="/logo/logo_g2b.png" alt="Startup Portal" />
+                  <img src="/logo/logo_startup.png" alt="Startup Portal" />
                 </div>
                 <h2>Espace Entrepreneur</h2>
                 <p className="login-subtitle">Connectez-vous pour accéder à votre tableau de bord</p>

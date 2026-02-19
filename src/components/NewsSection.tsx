@@ -1,4 +1,3 @@
-import { FiTrendingUp, FiAward, FiGlobe, FiBookOpen } from 'react-icons/fi';
 import './NewsSection.css';
 
 interface NewsItem {
@@ -6,7 +5,7 @@ interface NewsItem {
   description: string;
   category: string;
   theme: string;
-  icon: React.ReactNode;
+  image: string;
   link: string;
 }
 
@@ -17,7 +16,7 @@ const NewsSection = () => {
       description: "L'INPI publie les chiffres clés de la propriété industrielle en France. En 2025, avec 16 807 dépôts et après plusieurs années de stabilisation, les brevets dépassent le niveau d'avant pandémie.",
       category: 'Nationale',
       theme: 'Propriété intellectuelle',
-      icon: <FiTrendingUp />,
+      image: '/images/1.png',
       link: '#chiffres-cles',
     },
     {
@@ -25,7 +24,7 @@ const NewsSection = () => {
       description: "L'INPI a accompagné de jeunes esprits créatifs lors de la Journée des Inventeurs organisée par Science & Vie Junior. Ces innovations portées par des 10-16 ans témoignent d'une génération inventive.",
       category: 'Nationale',
       theme: 'Propriété intellectuelle',
-      icon: <FiAward />,
+      image: '/images/2.png',
       link: '#concours',
     },
     {
@@ -33,7 +32,7 @@ const NewsSection = () => {
       description: "L'INPI et le nouveau Ministère coréen de la propriété intellectuelle ont réaffirmé leur coopération structurée autour de l'intelligence artificielle, des indications géographiques et de la défense des droits de propriété intellectuelle.",
       category: 'Internationale',
       theme: 'Propriété intellectuelle',
-      icon: <FiGlobe />,
+      image: '/images/3.png',
       link: '#coree',
     },
     {
@@ -41,7 +40,7 @@ const NewsSection = () => {
       description: "L'INPI, les Chambres de recours de l'EUIPO et l'APRAM ont organisé une conférence consacrée à l'actualité et aux dernières évolutions jurisprudentielles en matière de marques.",
       category: 'Internationale',
       theme: 'Propriété intellectuelle',
-      icon: <FiBookOpen />,
+      image: '/images/4.jpg',
       link: '#euipo',
     },
   ];
@@ -56,7 +55,7 @@ const NewsSection = () => {
           {news.map((item, index) => (
             <article key={index} className="news-card">
               <div className="news-image">
-                <span className="news-icon">{item.icon}</span>
+                <img src={item.image} alt={item.title} loading="lazy" />
               </div>
               <div className="news-content">
                 <div className="news-tags">
