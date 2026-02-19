@@ -7,7 +7,7 @@
 /* Sidebar Styles */
 .dashboard-sidebar {
   width: 260px;
-  background: linear-gradient(180deg, #17a2b8 0%, #138496 100%);
+  background: linear-gradient(180deg, dodgerblue 0%, #138496 100%);
   color: white;
   display: flex;
   flex-direction: column;
@@ -191,7 +191,7 @@
 .back-to-dashboard-btn {
   background: #f8f9fa;
   border: 2px solid #e9ecef;
-  color: #17a2b8;
+  color: dodgerblue;
   padding: 0.75rem 1.25rem;
   border-radius: 10px;
   cursor: pointer;
@@ -204,9 +204,9 @@
 }
 
 .back-to-dashboard-btn:hover {
-  background: #17a2b8;
+  background: dodgerblue;
   color: white;
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   transform: translateX(-4px);
 }
 
@@ -298,7 +298,7 @@
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  background: linear-gradient(135deg, #17a2b8, #138496);
+  background: linear-gradient(135deg, dodgerblue, #138496);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -414,7 +414,7 @@
 }
 
 .stat-icon.primary {
-  background: linear-gradient(135deg, #17a2b8, #138496);
+  background: linear-gradient(135deg, dodgerblue, #138496);
   color: white;
 }
 
@@ -501,7 +501,7 @@
   height: 40px;
   border-radius: 10px;
   background: #e7f6f8;
-  color: #17a2b8;
+  color: dodgerblue;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -599,7 +599,7 @@
 
 .action-icon {
   font-size: 3rem;
-  color: #17a2b8;
+  color: dodgerblue;
   margin-bottom: 1rem;
 }
 
@@ -618,7 +618,7 @@
 
 /* Buttons */
 .btn-primary {
-  background: linear-gradient(135deg, #17a2b8, #138496);
+  background: linear-gradient(135deg, dodgerblue, #138496);
   color: white;
   border: none;
   padding: 0.875rem 2rem;
@@ -641,8 +641,8 @@
 
 .btn-secondary {
   background: white;
-  color: #17a2b8;
-  border: 2px solid #17a2b8;
+  color: dodgerblue;
+  border: 2px solid dodgerblue;
   padding: 0.875rem 2rem;
   border-radius: 10px;
   font-weight: 600;
@@ -652,7 +652,7 @@
 }
 
 .btn-secondary:hover {
-  background: #17a2b8;
+  background: dodgerblue;
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(23, 162, 184, 0.3);
@@ -661,7 +661,7 @@
 .btn-link {
   background: none;
   border: none;
-  color: #17a2b8;
+  color: dodgerblue;
   font-weight: 600;
   cursor: pointer;
   padding: 0.5rem 0;
@@ -677,7 +677,7 @@
 /* Info Box */
 .info-box {
   background: linear-gradient(135deg, #e7f6f8, #d0eff5);
-  border-left: 4px solid #17a2b8;
+  border-left: 4px solid dodgerblue;
   padding: 1.25rem 1.5rem;
   border-radius: 12px;
   display: flex;
@@ -700,7 +700,7 @@
 
 .info-box svg {
   font-size: 1.5rem;
-  color: #17a2b8;
+  color: dodgerblue;
   flex-shrink: 0;
   margin-top: 0.25rem;
 }
@@ -813,7 +813,7 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #17a2b8, #138496);
+  background: linear-gradient(135deg, dodgerblue, #138496);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -838,7 +838,7 @@
 }
 
 .network-card.featured {
-  background: linear-gradient(135deg, #17a2b8, #138496);
+  background: linear-gradient(135deg, dodgerblue, #138496);
   color: white;
 }
 
@@ -931,7 +931,7 @@
   flex-shrink: 0;
 }
 
-.settings-icon.primary { background: #17a2b8; }
+.settings-icon.primary { background: dodgerblue; }
 .settings-icon.info { background: #4c6ef5; }
 .settings-icon.success { background: #2ecc71; }
 .settings-icon.warning { background: #f39c12; }
@@ -1000,7 +1000,7 @@
   right: 0;
   height: 4px;
   border-radius: 16px 16px 0 0;
-  background: linear-gradient(90deg, #17a2b8 0%, #138496 100%);
+  background: linear-gradient(90deg, dodgerblue 0%, #138496 100%);
 }
 
 .settings-action-title {
@@ -1046,7 +1046,7 @@
 
 .settings-textarea:focus {
   outline: none;
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   box-shadow: 0 0 0 3px rgba(23, 162, 184, 0.15);
 }
 
@@ -1058,7 +1058,7 @@
 
 .settings-input:focus {
   outline: none;
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   box-shadow: 0 0 0 3px rgba(23, 162, 184, 0.15);
 }
 
@@ -1100,7 +1100,7 @@
   right: 0;
   height: 4px;
   border-radius: 18px 18px 0 0;
-  background: linear-gradient(90deg, #17a2b8 0%, #138496 100%);
+  background: linear-gradient(90deg, dodgerblue 0%, #138496 100%);
 }
 
 .settings-modal-close {
@@ -1178,7 +1178,7 @@
 }
 
 .info-hero-icon.primary {
-  background: #17a2b8;
+  background: dodgerblue;
 }
 
 .info-hero-icon.info {
@@ -1230,7 +1230,7 @@
 }
 
 .info-card-icon.primary {
-  background: #17a2b8;
+  background: dodgerblue;
 }
 
 .info-card-icon.info {
@@ -1281,7 +1281,7 @@
 
 .opportunity-badge {
   background: #e7f6f8;
-  color: #17a2b8;
+  color: dodgerblue;
   padding: 0.25rem 0.6rem;
   border-radius: 8px;
   font-size: 0.75rem;
@@ -1368,7 +1368,7 @@
 
 .chip {
   background: #e7f6f8;
-  color: #17a2b8;
+  color: dodgerblue;
   padding: 0.35rem 0.75rem;
   border-radius: 10px;
   font-size: 0.82rem;
@@ -1397,7 +1397,7 @@
 
 .event-date {
   background: #e7f6f8;
-  color: #17a2b8;
+  color: dodgerblue;
   padding: 0.5rem 0.875rem;
   border-radius: 8px;
   font-weight: 600;
@@ -1456,7 +1456,7 @@
 }
 
 .resource-list a {
-  color: #17a2b8;
+  color: dodgerblue;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -1535,7 +1535,7 @@
 .status-badge.pending {
   background: linear-gradient(135deg, #d1ecf1, #bee5eb);
   color: #0c5460;
-  border: 2px solid #17a2b8;
+  border: 2px solid dodgerblue;
 }
 
 /* Workflow Progress */
@@ -1687,7 +1687,7 @@
 .expand-btn {
   background: #f8f9fa;
   border: 2px solid #e9ecef;
-  color: #17a2b8;
+  color: dodgerblue;
   padding: 0.875rem 1.5rem;
   border-radius: 10px;
   cursor: pointer;
@@ -1702,9 +1702,9 @@
 }
 
 .expand-btn:hover {
-  background: #17a2b8;
+  background: dodgerblue;
   color: white;
-  border-color: #17a2b8;
+  border-color: dodgerblue;
 }
 
 .history-timeline {
@@ -1723,7 +1723,7 @@
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: #17a2b8;
+  background: dodgerblue;
   position: absolute;
   left: -1.9rem;
   top: 0.25rem;

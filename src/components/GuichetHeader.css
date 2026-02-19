@@ -36,7 +36,7 @@
   gap: 0.8rem;
   padding: 0.8rem 1.5rem;
   background: white;
-  border: 2px solid #17a2b8;
+  border: 2px solid dodgerblue;
   border-radius: 30px;
   text-decoration: none;
   color: #333;
@@ -46,7 +46,7 @@
 }
 
 .guichet-action-btn:hover {
-  background: #17a2b8;
+  background: dodgerblue;
   color: white;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .guichet-link:hover {
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 @media (max-width: 768px) {

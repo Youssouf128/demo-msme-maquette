@@ -62,8 +62,8 @@
 
 .helper-btn {
   background: white;
-  border: 2px solid #17a2b8;
-  color: #17a2b8;
+  border: 2px solid dodgerblue;
+  color: dodgerblue;
   padding: 0.75rem 1.5rem;
   border-radius: 10px;
   cursor: pointer;
@@ -75,7 +75,7 @@
 }
 
 .helper-btn:hover {
-  background: #17a2b8;
+  background: dodgerblue;
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(23, 162, 184, 0.3);
@@ -143,7 +143,7 @@
 }
 
 .step.active .step-icon {
-  background: linear-gradient(135deg, #17a2b8, #138496);
+  background: linear-gradient(135deg, dodgerblue, #138496);
   color: white;
   transform: scale(1.1);
   box-shadow: 0 6px 20px rgba(23, 162, 184, 0.4);
@@ -177,7 +177,7 @@
 
 .step.active .step-number,
 .step.active .step-title {
-  color: #17a2b8;
+  color: dodgerblue;
   font-weight: 600;
 }
 
@@ -250,7 +250,7 @@
 .form-input:focus,
 .form-textarea:focus {
   outline: none;
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   box-shadow: 0 0 0 4px rgba(23, 162, 184, 0.1);
 }
 
@@ -298,13 +298,13 @@
 }
 
 .upload-area:hover {
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   background: #e7f6f8;
 }
 
 .upload-icon {
   font-size: 3rem;
-  color: #17a2b8;
+  color: dodgerblue;
   margin-bottom: 1rem;
 }
 
@@ -321,7 +321,7 @@
 
 .upload-btn {
   display: inline-block;
-  background: linear-gradient(135deg, #17a2b8, #138496);
+  background: linear-gradient(135deg, dodgerblue, #138496);
   color: white;
   padding: 0.875rem 2rem;
   border-radius: 10px;
@@ -374,7 +374,7 @@
 
 .file-icon {
   font-size: 1.75rem;
-  color: #17a2b8;
+  color: dodgerblue;
   flex-shrink: 0;
 }
 
@@ -468,7 +468,7 @@
 }
 
 .nav-btn.primary {
-  background: linear-gradient(135deg, #17a2b8, #138496);
+  background: linear-gradient(135deg, dodgerblue, #138496);
   color: white;
   box-shadow: 0 4px 12px rgba(23, 162, 184, 0.3);
 }
@@ -489,8 +489,8 @@
 
 .nav-btn.secondary {
   background: white;
-  color: #17a2b8;
-  border: 2px solid #17a2b8;
+  color: dodgerblue;
+  border: 2px solid dodgerblue;
 }
 
 .nav-btn.secondary:hover {
@@ -523,7 +523,7 @@
 }
 
 .chatbot-header {
-  background: linear-gradient(135deg, #17a2b8, #138496);
+  background: linear-gradient(135deg, dodgerblue, #138496);
   color: white;
   padding: 1.25rem 1.5rem;
   border-radius: 16px 16px 0 0;
@@ -585,7 +585,7 @@
 .chat-message ul {
   margin: 0.5rem 0 0 0;
   padding-left: 1.5rem;
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 .chat-message li {
@@ -615,11 +615,11 @@
 
 .chatbot-input input:focus {
   outline: none;
-  border-color: #17a2b8;
+  border-color: dodgerblue;
 }
 
 .chatbot-input button {
-  background: #17a2b8;
+  background: dodgerblue;
   border: none;
   color: white;
   padding: 0.75rem 1.5rem;

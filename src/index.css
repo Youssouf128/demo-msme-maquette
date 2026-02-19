@@ -6,16 +6,18 @@
 
 :root {
   /* Palette de couleurs */
-  --color-primary: #17a2b8;
-  --color-primary-dark: #138496;
-  --color-primary-light: #5dccdc;
-  --color-secondary: #dc3545;
+  --color-primary: dodgerblue;
+  --color-primary-dark: #0b5ed7;
+  --color-primary-light: #7bb6ff;
+  --color-secondary: #ff6b35;
+  --color-secondary-dark: #e85a2a;
+  --color-secondary-light: #ff8a5b;
   --color-success: #28a745;
-  --color-text: #2c3e50;
-  --color-text-light: #6c757d;
-  --color-border: #e0e0e0;
+  --color-text: #1f2a44;
+  --color-text-light: #5f6b7a;
+  --color-border: #e6eaf0;
   --color-background: #ffffff;
-  --color-background-alt: #f8f9fa;
+  --color-background-alt: #f4f7ff;
   
   /* Espacement */
   --spacing-xs: 0.5rem;

@@ -1,11 +1,11 @@
 .footer {
-  background: #17a2b8;
+  background: var(--color-primary);
   color: white;
   margin-top: auto;
 }
 
 .footer-newsletter {
-  background: linear-gradient(135deg, var(--color-secondary) 0%, #bd2130 100%);
+  background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-secondary-dark) 100%);
   padding: var(--spacing-lg) 0;
   position: relative;
   overflow: hidden;
@@ -84,7 +84,7 @@
 }
 
 .newsletter-button:hover {
-  background: linear-gradient(135deg, #c82333, #bd2130);
+  background: linear-gradient(135deg, var(--color-secondary-dark), #c64a24);
   transform: translateY(-3px);
   box-shadow: 0 10px 30px rgba(220, 53, 69, 0.5);
   color: white;
@@ -205,7 +205,7 @@
   height: 38px;
   background: white;
   border-radius: 50%;
-  color: #003d7a;
+  color: var(--color-primary-dark);
   text-decoration: none;
   font-size: 1rem;
   transition: all 0.3s ease;
@@ -242,7 +242,7 @@
 
 .footer-legal-links a,
 .footer-legal-links-second a {
-  color: #17a2b8;
+  color: var(--color-primary);
   text-decoration: none;
   font-size: 0.875rem;
   transition: color 0.3s ease;
@@ -251,7 +251,7 @@
 
 .footer-legal-links a:hover,
 .footer-legal-links-second a:hover {
-  color: #dc3545;
+  color: var(--color-primary-dark);
   text-decoration: none;
 }
 

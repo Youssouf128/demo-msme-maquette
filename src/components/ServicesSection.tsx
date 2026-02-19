@@ -80,6 +80,12 @@ const ServicesSection = () => {
 
   return (
     <section className="services-section-tabs" id="services">
+      <div className="services-video" aria-hidden="true">
+        <video autoPlay muted loop playsInline>
+          <source src="/video/event.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div className="services-overlay" aria-hidden="true" />
       <div className="container">
         <h2 className="services-heading">
           <span className="services-prefix">_</span>Nos <span className="services-highlight">services</span>

@@ -49,11 +49,11 @@
 
 .tab-btn:hover {
   background: #f8f9fa;
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 .tab-btn.active {
-  background: #17a2b8;
+  background: dodgerblue;
   color: white;
 }
 
@@ -72,7 +72,7 @@
 
 .tab-btn.active .badge {
   background: white;
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 /* Tab Content */
@@ -89,7 +89,7 @@
 }
 
 .stat-item {
-  background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+  background: linear-gradient(135deg, dodgerblue 0%, #138496 100%);
   padding: 1.75rem;
   border-radius: 16px;
   text-align: center;
@@ -175,7 +175,7 @@
   background: white;
   border: 3px solid #e9ecef;
   border-radius: 50%;
-  color: #17a2b8;
+  color: dodgerblue;
   transition: all 0.3s ease;
 }
 
@@ -193,7 +193,7 @@
 
 .actor-avatar[data-role="partenaire"] {
   background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   color: #0c5460;
 }
 
@@ -251,7 +251,7 @@
 
 .actor-company svg,
 .actor-location svg {
-  color: #17a2b8;
+  color: dodgerblue;
   font-size: 0.95rem;
 }
 
@@ -369,7 +369,7 @@
 
 .conversation-item.active {
   background: #e7f6f8;
-  border-left: 4px solid #17a2b8;
+  border-left: 4px solid dodgerblue;
 }
 
 .conversation-avatar {
@@ -381,8 +381,8 @@
   justify-content: center;
   background: linear-gradient(135deg, #e7f6f8 0%, #d1ecf1 100%);
   border-radius: 50%;
-  border: 2px solid #17a2b8;
-  color: #17a2b8;
+  border: 2px solid dodgerblue;
+  color: dodgerblue;
   flex-shrink: 0;
 }
 
@@ -474,7 +474,7 @@
 }
 
 .btn-icon:hover {
-  background: #17a2b8;
+  background: dodgerblue;
   color: white;
 }
 
@@ -522,8 +522,8 @@
   justify-content: center;
   background: linear-gradient(135deg, #e7f6f8 0%, #d1ecf1 100%);
   border-radius: 50%;
-  border: 2px solid #17a2b8;
-  color: #17a2b8;
+  border: 2px solid dodgerblue;
+  color: dodgerblue;
   flex-shrink: 0;
 }
 
@@ -541,7 +541,7 @@
 }
 
 .message.sent .message-content p {
-  background: #17a2b8;
+  background: dodgerblue;
   color: white;
 }
 
@@ -569,7 +569,7 @@
 
 .chat-input input:focus {
   outline: none;
-  border-color: #17a2b8;
+  border-color: dodgerblue;
 }
 
 /* Forums */
@@ -605,13 +605,13 @@
 }
 
 .category-btn:hover {
-  border-color: #17a2b8;
-  color: #17a2b8;
+  border-color: dodgerblue;
+  color: dodgerblue;
 }
 
 .category-btn.active {
-  background: #17a2b8;
-  border-color: #17a2b8;
+  background: dodgerblue;
+  border-color: dodgerblue;
   color: white;
 }
 
@@ -653,7 +653,7 @@
 
 .topic-category {
   background: #e7f6f8;
-  color: #17a2b8;
+  color: dodgerblue;
   padding: 0.375rem 0.875rem;
   border-radius: 8px;
   font-size: 0.8rem;
@@ -681,7 +681,7 @@
 }
 
 .topic-stats .stat svg {
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 .last-activity {
@@ -721,13 +721,13 @@
 }
 
 .filter-btn:hover {
-  border-color: #17a2b8;
-  color: #17a2b8;
+  border-color: dodgerblue;
+  color: dodgerblue;
 }
 
 .filter-btn.active {
-  background: #17a2b8;
-  border-color: #17a2b8;
+  background: dodgerblue;
+  border-color: dodgerblue;
   color: white;
 }
 
@@ -820,7 +820,7 @@
 }
 
 .info-item svg {
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 .event-speaker {
@@ -846,7 +846,7 @@
 
 .progress-bar {
   height: 100%;
-  background: linear-gradient(90deg, #17a2b8 0%, #138496 100%);
+  background: linear-gradient(90deg, dodgerblue 0%, #138496 100%);
   transition: width 0.5s ease;
 }
 
@@ -904,7 +904,7 @@
   border: 4px solid #e9ecef;
   border-radius: 50%;
   flex-shrink: 0;
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 .profile-avatar-large[data-role="mentor"] {
@@ -921,7 +921,7 @@
 
 .profile-avatar-large[data-role="partenaire"] {
   background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   color: #0c5460;
 }
 
@@ -1023,7 +1023,7 @@
 }
 
 .contact-item svg {
-  color: #17a2b8;
+  color: dodgerblue;
   font-size: 1.1rem;
 }
 
@@ -1057,9 +1057,9 @@
 }
 
 .profile-actions .btn-primary {
-  background: #17a2b8;
+  background: dodgerblue;
   color: white;
-  border: 2px solid #17a2b8;
+  border: 2px solid dodgerblue;
 }
 
 .profile-actions .btn-primary:hover {
@@ -1071,12 +1071,12 @@
 
 .profile-actions .btn-secondary {
   background: white;
-  color: #17a2b8;
-  border: 2px solid #17a2b8;
+  color: dodgerblue;
+  border: 2px solid dodgerblue;
 }
 
 .profile-actions .btn-secondary:hover {
-  background: #17a2b8;
+  background: dodgerblue;
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(23, 162, 184, 0.3);
@@ -1145,18 +1145,18 @@
 
 .meeting-type-btn svg {
   font-size: 1.75rem;
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 .meeting-type-btn:hover {
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   background: #f8f9fa;
 }
 
 .meeting-type-btn.active {
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   background: #e7f6f8;
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 /* Date Grid */
@@ -1180,13 +1180,13 @@
 }
 
 .date-btn:hover {
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   background: #f8f9fa;
   transform: translateY(-2px);
 }
 
 .date-btn.active {
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   background: #e7f6f8;
 }
 
@@ -1210,11 +1210,11 @@
 
 .date-btn.active .date-day,
 .date-btn.active .date-month {
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 .date-btn.active .date-number {
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 /* Time Slots */
@@ -1240,13 +1240,13 @@
 }
 
 .time-slot-btn:hover {
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   background: #f8f9fa;
 }
 
 .time-slot-btn.active {
-  border-color: #17a2b8;
-  background: #17a2b8;
+  border-color: dodgerblue;
+  background: dodgerblue;
   color: white;
 }
 
@@ -1255,7 +1255,7 @@
 }
 
 .time-slot-btn svg {
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 /* Notes */
@@ -1272,7 +1272,7 @@
 
 .schedule-notes:focus {
   outline: none;
-  border-color: #17a2b8;
+  border-color: dodgerblue;
 }
 
 /* Schedule Summary */
@@ -1282,7 +1282,7 @@
   padding: 1.5rem;
   background: linear-gradient(135deg, #e7f6f8 0%, #d1ecf1 100%);
   border-radius: 16px;
-  border: 2px solid #17a2b8;
+  border: 2px solid dodgerblue;
   margin-top: 1rem;
   animation: slideIn 0.4s ease;
 }
@@ -1307,7 +1307,7 @@
   align-items: center;
   justify-content: center;
   font-size: 1.75rem;
-  color: #17a2b8;
+  color: dodgerblue;
   flex-shrink: 0;
 }
 
@@ -1459,7 +1459,7 @@
   padding: 1rem 0.5rem;
   font-weight: 600;
   color: #2c3e50;
-  border-bottom: 2px solid #17a2b8;
+  border-bottom: 2px solid dodgerblue;
   background: linear-gradient(135deg, #e7f6f8 0%, #d1ecf1 100%);
   text-transform: uppercase;
   font-size: 0.85rem;
@@ -1503,15 +1503,15 @@
 
 .rbc-toolbar button:hover {
   background: #f8f9fa;
-  border-color: #17a2b8;
-  color: #17a2b8;
+  border-color: dodgerblue;
+  color: dodgerblue;
 }
 
 .rbc-toolbar button:active,
 .rbc-toolbar button.rbc-active {
-  background: #17a2b8;
+  background: dodgerblue;
   color: white;
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   box-shadow: 0 2px 8px rgba(23, 162, 184, 0.3);
 }
 
@@ -1536,7 +1536,7 @@
 
 .rbc-date-cell.rbc-now {
   font-weight: 700;
-  color: #17a2b8;
+  color: dodgerblue;
 }
 
 .rbc-time-slot {

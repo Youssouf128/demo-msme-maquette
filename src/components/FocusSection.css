@@ -1,6 +1,6 @@
 .focus-section {
   padding: var(--spacing-xl) 0;
-  background: linear-gradient(135deg, #e3f8fb 0%, #b8eef5 100%);
+  background: linear-gradient(135deg, #f2f6ff 0%, #e5efff 100%);
 }
 
 .focus-content {
@@ -73,28 +73,28 @@
   font-size: 2.5rem;
   margin: 0 0 1.5rem 0;
   font-weight: 700;
-  color: #333;
+  color: var(--color-text);
 }
 
 .focus-prefix {
-  color: #17a2b8;
+  color: var(--color-primary);
   margin-right: 0.5rem;
 }
 
 .focus-highlight {
-  color: #17a2b8;
+  color: var(--color-primary);
 }
 
 .focus-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #333;
+  color: var(--color-text);
   margin: 0 0 1.5rem 0;
   line-height: 1.4;
 }
 
 .focus-description {
-  color: #555;
+  color: var(--color-text-light);
   line-height: 1.7;
   margin: 0 0 2rem 0;
   font-size: 1rem;
@@ -110,7 +110,7 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 2px solid #17a2b8;
+  border: 2px solid var(--color-primary);
   background: transparent;
   cursor: pointer;
   padding: 0;
@@ -118,13 +118,13 @@
 }
 
 .pagination-dot.active {
-  background: #17a2b8;
+  background: var(--color-primary);
 }
 
 .focus-button {
   display: inline-block;
   padding: 1rem 2.5rem;
-  background: #dc3545;
+  background: var(--color-secondary);
   color: white;
   border: none;
   border-radius: 25px;
@@ -134,7 +134,7 @@
 }
 
 .focus-button:hover {
-  background: #c82333;
+  background: var(--color-secondary-dark);
 }
 
 @media (max-width: 992px) {

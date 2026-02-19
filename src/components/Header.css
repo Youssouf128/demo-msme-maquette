@@ -508,7 +508,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #17a2b8 0%, #138496 50%, #17a2b8 100%);
+  background: linear-gradient(90deg, dodgerblue 0%, #138496 50%, dodgerblue 100%);
   background-size: 200% 100%;
   animation: shimmer 3s linear infinite;
 }
@@ -561,7 +561,7 @@
 }
 
 .dropdown-footer {
-  background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+  background: linear-gradient(135deg, dodgerblue 0%, #138496 100%);
   padding: 3rem 3.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -734,7 +734,7 @@
 }
 
 .dropdown-content ul li a:hover {
-  color: #17a2b8;
+  color: dodgerblue;
   transform: translateX(5px);
 }
 

@@ -11,7 +11,7 @@
 }
 
 .guichet-hero {
-  background: linear-gradient(135deg, #0d6efd 0%, #17a2b8 50%, #138496 100%);
+  background: linear-gradient(135deg, #0d6efd 0%, dodgerblue 50%, #138496 100%);
   background-size: 200% 200%;
   animation: gradientShift 8s ease infinite;
   color: white;
@@ -110,7 +110,7 @@
   left: -100%;
   width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, transparent, #17a2b8, transparent);
+  background: linear-gradient(90deg, transparent, dodgerblue, transparent);
   transition: left 0.6s ease;
 }
 
@@ -182,7 +182,7 @@
 }
 
 .guichet-card h2 {
-  color: #17a2b8;
+  color: dodgerblue;
   font-size: 1.8rem;
   margin: 0 0 1.5rem 0;
   font-weight: 700;
@@ -197,7 +197,7 @@
   left: 0;
   width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, #17a2b8, transparent);
+  background: linear-gradient(90deg, dodgerblue, transparent);
   transition: width 0.3s ease;
 }
 
@@ -206,7 +206,7 @@
 }
 
 .guichet-card h3 {
-  color: #17a2b8;
+  color: dodgerblue;
   font-size: 1.2rem;
   margin: 2rem 0 1rem 0;
   font-weight: 600;
@@ -239,7 +239,7 @@
 }
 
 .guichet-card ul li:hover {
-  color: #17a2b8;
+  color: dodgerblue;
   transform: translateX(5px);
 }
 
@@ -247,7 +247,7 @@
   content: '•';
   position: absolute;
   left: 0;
-  color: #17a2b8;
+  color: dodgerblue;
   font-weight: bold;
   font-size: 1.5rem;
   transition: all 0.3s ease;
@@ -258,7 +258,7 @@
 }
 
 .guichet-btn-primary {
-  background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+  background: linear-gradient(135deg, dodgerblue 0%, #138496 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -304,8 +304,8 @@
 
 .guichet-btn-secondary {
   background: white;
-  color: #17a2b8;
-  border: 2px solid #17a2b8;
+  color: dodgerblue;
+  border: 2px solid dodgerblue;
   padding: 1rem 2rem;
   border-radius: 6px;
   font-size: 1rem;
@@ -316,7 +316,7 @@
 }
 
 .guichet-btn-secondary:hover {
-  background: #17a2b8;
+  background: dodgerblue;
   color: white;
   transform: translateY(-2px);
 }
@@ -349,20 +349,20 @@
 }
 
 .guichet-input:hover {
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   background: white;
 }
 
 .guichet-input:focus {
   outline: none;
-  border-color: #17a2b8;
+  border-color: dodgerblue;
   background: white;
   box-shadow: 0 0 0 4px rgba(23, 162, 184, 0.1);
   transform: translateY(-2px);
 }
 
 .forgot-link {
-  color: #17a2b8;
+  color: dodgerblue;
   text-decoration: none;
   font-size: 0.95rem;
   display: inline-block;
@@ -378,7 +378,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: #17a2b8;
+  background: dodgerblue;
   transition: width 0.3s ease;
 }
 
@@ -392,7 +392,7 @@
 }
 
 .info-text {
-  color: #17a2b8;
+  color: dodgerblue;
   font-size: 0.9rem;
   display: flex;
   align-items: center;
@@ -454,7 +454,7 @@
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(90deg, transparent, #17a2b8, transparent);
+  background: linear-gradient(90deg, transparent, dodgerblue, transparent);
 }
 
 .guichet-footer-links {
@@ -468,7 +468,7 @@
 }
 
 .guichet-footer-links a {
-  color: #17a2b8;
+  color: dodgerblue;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
@@ -484,7 +484,7 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background: #17a2b8;
+  background: dodgerblue;
   transform: translateX(-50%);
   transition: width 0.3s ease;
 }
