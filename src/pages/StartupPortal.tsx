@@ -107,7 +107,6 @@ const StartupPortal = () => {
                     type="email" 
                     placeholder="entrepreneur@startup.dj" 
                     className="startup-input" 
-                    required
                   />
                 </div>
 
@@ -117,7 +116,6 @@ const StartupPortal = () => {
                     type="password" 
                     placeholder="••••••••" 
                     className="startup-input" 
-                    required
                   />
                 </div>
 
@@ -136,8 +134,8 @@ const StartupPortal = () => {
                 </div>
 
                 <button className="startup-btn-secondary">
-                  <span className="btn-icon"><FiMail /></span>
-                  Créer un compte startup
+                  <span className="btn-icon-secondary"><FiMail /></span>
+                  <span>Créer un compte startup</span>
                 </button>
               </form>
 
@@ -162,7 +160,6 @@ const StartupPortal = () => {
                     type="text"
                     placeholder="ministere@djibouti.gov"
                     className="startup-input"
-                    required
                   />
                 </div>
 
@@ -172,7 +169,6 @@ const StartupPortal = () => {
                     type="password"
                     placeholder="••••••••"
                     className="startup-input"
-                    required
                   />
                 </div>
 
@@ -185,7 +181,7 @@ const StartupPortal = () => {
                 </div>
 
                 <button type="submit" className="startup-btn-login">
-                  <span className="btn-icon"><FiActivity /></span>
+                  <FiActivity style={{ color: 'white', fontSize: '1.1rem' }} />
                   Accéder au dashboard
                 </button>
               </form>

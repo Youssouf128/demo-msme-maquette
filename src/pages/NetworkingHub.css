@@ -89,12 +89,12 @@
 }
 
 .stat-item {
-  background: linear-gradient(135deg, dodgerblue 0%, #138496 100%);
+  background: linear-gradient(135deg, dodgerblue 0%, #0b5ed7 100%);
   padding: 1.75rem;
   border-radius: 16px;
   text-align: center;
   color: white;
-  box-shadow: 0 4px 12px rgba(23, 162, 184, 0.3);
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
 }
 
 .stat-value {
@@ -846,7 +846,7 @@
 
 .progress-bar {
   height: 100%;
-  background: linear-gradient(90deg, dodgerblue 0%, #138496 100%);
+  background: linear-gradient(90deg, dodgerblue 0%, #0b5ed7 100%);
   transition: width 0.5s ease;
 }
 
@@ -1063,10 +1063,10 @@
 }
 
 .profile-actions .btn-primary:hover {
-  background: #138496;
-  border-color: #138496;
+  background: #0b5ed7;
+  border-color: #0b5ed7;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(23, 162, 184, 0.3);
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
 }
 
 .profile-actions .btn-secondary {
@@ -1079,7 +1079,7 @@
   background: dodgerblue;
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(23, 162, 184, 0.3);
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
 }
 
 /* Schedule Meeting Modal */
@@ -1512,7 +1512,7 @@
   background: dodgerblue;
   color: white;
   border-color: dodgerblue;
-  box-shadow: 0 2px 8px rgba(23, 162, 184, 0.3);
+  box-shadow: 0 2px 8px rgba(13, 110, 253, 0.3);
 }
 
 .rbc-toolbar-label {

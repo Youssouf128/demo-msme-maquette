@@ -7,7 +7,7 @@
 /* Sidebar Styles */
 .dashboard-sidebar {
   width: 260px;
-  background: linear-gradient(180deg, dodgerblue 0%, #138496 100%);
+  background: linear-gradient(180deg, dodgerblue 0%, #1565c0 100%);
   color: white;
   display: flex;
   flex-direction: column;
@@ -298,7 +298,7 @@
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  background: linear-gradient(135deg, dodgerblue, #138496);
+  background: linear-gradient(135deg, dodgerblue, #1565c0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -414,12 +414,12 @@
 }
 
 .stat-icon.primary {
-  background: linear-gradient(135deg, dodgerblue, #138496);
+  background: linear-gradient(135deg, dodgerblue, #1565c0);
   color: white;
 }
 
 .stat-icon.success {
-  background: linear-gradient(135deg, #28a745, #218838);
+  background: linear-gradient(135deg, #1a73e8, #1557b0);
   color: white;
 }
 
@@ -618,7 +618,7 @@
 
 /* Buttons */
 .btn-primary {
-  background: linear-gradient(135deg, dodgerblue, #138496);
+  background: linear-gradient(135deg, dodgerblue, #1565c0);
   color: white;
   border: none;
   padding: 0.875rem 2rem;
@@ -670,7 +670,7 @@
 }
 
 .btn-link:hover {
-  color: #138496;
+  color: #1565c0;
   text-decoration: underline;
 }
 
@@ -813,7 +813,7 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background: linear-gradient(135deg, dodgerblue, #138496);
+  background: linear-gradient(135deg, dodgerblue, #1565c0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -838,7 +838,7 @@
 }
 
 .network-card.featured {
-  background: linear-gradient(135deg, dodgerblue, #138496);
+  background: linear-gradient(135deg, dodgerblue, #1565c0);
   color: white;
 }
 
@@ -933,7 +933,7 @@
 
 .settings-icon.primary { background: dodgerblue; }
 .settings-icon.info { background: #4c6ef5; }
-.settings-icon.success { background: #2ecc71; }
+.settings-icon.success { background: #1a73e8; }
 .settings-icon.warning { background: #f39c12; }
 
 .settings-list {
@@ -1000,7 +1000,7 @@
   right: 0;
   height: 4px;
   border-radius: 16px 16px 0 0;
-  background: linear-gradient(90deg, dodgerblue 0%, #138496 100%);
+  background: linear-gradient(90deg, dodgerblue 0%, #1565c0 100%);
 }
 
 .settings-action-title {
@@ -1100,7 +1100,7 @@
   right: 0;
   height: 4px;
   border-radius: 18px 18px 0 0;
-  background: linear-gradient(90deg, dodgerblue 0%, #138496 100%);
+  background: linear-gradient(90deg, dodgerblue 0%, #1565c0 100%);
 }
 
 .settings-modal-close {
@@ -1186,7 +1186,7 @@
 }
 
 .info-hero-icon.success {
-  background: #2ecc71;
+  background: #1a73e8;
 }
 
 .info-grid.info-grid-extended {
@@ -1238,7 +1238,7 @@
 }
 
 .info-card-icon.success {
-  background: #2ecc71;
+  background: #1a73e8;
 }
 
 .info-subsection h4 {
@@ -1290,7 +1290,7 @@
 
 .opportunity-badge.success {
   background: #e6f9ef;
-  color: #2ecc71;
+  color: #1a73e8;
 }
 
 .opportunity-meta {
@@ -1463,7 +1463,7 @@
 }
 
 .resource-list a:hover {
-  color: #138496;
+  color: #1565c0;
   text-decoration: underline;
 }
 
@@ -1529,7 +1529,7 @@
 .status-badge.approved {
   background: linear-gradient(135deg, #d4edda, #c3e6cb);
   color: #155724;
-  border: 2px solid #28a745;
+  border: 2px solid #1a73e8;
 }
 
 .status-badge.pending {
@@ -1568,7 +1568,7 @@
 }
 
 .workflow-step.completed::before {
-  background: linear-gradient(180deg, #28a745, #20c997);
+  background: linear-gradient(180deg, #1a73e8, #1a73e8);
 }
 
 .workflow-step.active::before {
@@ -1590,7 +1590,7 @@
 }
 
 .workflow-step.completed .step-indicator {
-  background: linear-gradient(135deg, #28a745, #20c997);
+  background: linear-gradient(135deg, #1a73e8, #1a73e8);
   color: white;
   box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
 }

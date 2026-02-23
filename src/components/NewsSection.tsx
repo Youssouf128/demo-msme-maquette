@@ -13,7 +13,7 @@ const NewsSection = () => {
   const news: NewsItem[] = [
     {
       title: 'Chiffres clés MSME 2025',
-      description: "L'INPI publie les chiffres clés de la propriété industrielle en France. En 2025, avec 16 807 dépôts et après plusieurs années de stabilisation, les brevets dépassent le niveau d'avant pandémie.",
+      description: "Chiffres clés de la propriété industrielle à Djibouti. En 2025, avec 16 807 dépôts et après plusieurs années de stabilisation, les brevets dépassent le niveau d'avant pandémie.",
       category: 'Nationale',
       theme: 'Propriété intellectuelle',
       image: '/images/1.png',
@@ -21,15 +21,15 @@ const NewsSection = () => {
     },
     {
       title: 'Concours « Innovez » avec Science & Vie',
-      description: "L'INPI a accompagné de jeunes esprits créatifs lors de la Journée des Inventeurs organisée par Science & Vie Junior. Ces innovations portées par des 10-16 ans témoignent d'une génération inventive.",
+      description: "De jeunes esprits créatifs ont été accompagnés lors de la Journée des Inventeurs organisée par Science & Vie Junior. Ces innovations portées par des 10-16 ans témoignent d'une génération inventive.",
       category: 'Nationale',
       theme: 'Propriété intellectuelle',
       image: '/images/2.png',
       link: '#concours',
     },
     {
-      title: 'France – République de Corée',
-      description: "L'INPI et le nouveau Ministère coréen de la propriété intellectuelle ont réaffirmé leur coopération structurée autour de l'intelligence artificielle, des indications géographiques et de la défense des droits de propriété intellectuelle.",
+      title: 'Djibouti – République de Corée',
+      description: "Le nouveau Ministère coréen de la propriété intellectuelle a réaffirmé sa coopération structurée autour de l'intelligence artificielle, des indications géographiques et de la défense des droits de propriété intellectuelle.",
       category: 'Internationale',
       theme: 'Propriété intellectuelle',
       image: '/images/3.png',
@@ -37,7 +37,7 @@ const NewsSection = () => {
     },
     {
       title: "Actualités des Chambres de recours de l'EUIPO",
-      description: "L'INPI, les Chambres de recours de l'EUIPO et l'APRAM ont organisé une conférence consacrée à l'actualité et aux dernières évolutions jurisprudentielles en matière de marques.",
+      description: "Les Chambres de recours de l'EUIPO et l'APRAM ont organisé une conférence consacrée à l'actualité et aux dernières évolutions jurisprudentielles en matière de marques.",
       category: 'Internationale',
       theme: 'Propriété intellectuelle',
       image: '/images/4.jpg',

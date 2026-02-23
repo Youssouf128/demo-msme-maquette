@@ -86,9 +86,9 @@ const Header = () => {
             <a href="#faq" className="header-action-link">
               <FiHelpCircle /> FAQ
             </a>
-            <a href="#account" className="header-action-link">
+            <Link to="/startup" className="header-action-link">
               <FiUser /> Mon compte
-            </a>
+            </Link>
           </div>
         </div>
       </div>
